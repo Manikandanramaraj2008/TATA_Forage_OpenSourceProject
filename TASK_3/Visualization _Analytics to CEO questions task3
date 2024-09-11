@@ -18,13 +18,22 @@ Question 1
 The CEO of the retail store is interested to view the time series of the revenue data
 for the year 2011 only. He would like to view granular data by looking into revenue 
 for each month. The CEO is interested in viewing the seasonal trends and wants to
-dig deeper into why these trends occur. This analysis will be helpful for the CEO to forecast for the next year.
+dig deeper into why these trends occur. This analysis will be helpful for the CEO to 
+forecast for the next year.
+
+![Slide3](https://github.com/user-attachments/assets/6be1e02c-63ec-4d6d-9bf5-211415485128)
+
+
 
 Question 2
 
 The CMO is interested in viewing the top 10 countries which are generating the highest revenue.
 Additionally, the CMO is also interested in viewing the quantity sold along with the revenue
 generated. The CMO does not want to have the United Kingdom in this visual.
+
+![Slide4](https://github.com/user-attachments/assets/549195fb-016f-48e1-b214-5b82f48da038)
+
+
 
 Question 3
 
@@ -33,6 +42,12 @@ by revenue. He is interested in a visual that shows the greatest revenue generat
 customer at the start and gradually declines to the lower revenue generating customers.
 The CMO wants to target the higher revenue generating customers and ensure that they
 remain satisfied with their products.
+
+![Slide5](https://github.com/user-attachments/assets/a600370f-a7e8-4ab2-ae01-8d70e707867a)
+
+
+
+
 
 Question 4
 
@@ -44,4 +59,12 @@ these areas and generate more business from these regions. He wants to view the 
 on a single view without the need to scroll or hover over the data points to identify 
 the demand. There is no need to show data for the United Kingdom as 
 the CEO is more interested in viewing the countries that have expansion opportunities.
+
+![Slide6](https://github.com/user-attachments/assets/d2947fd1-d7db-49c4-b4e6-79d067b5c71d)
+
+
+
+
+
+
 
