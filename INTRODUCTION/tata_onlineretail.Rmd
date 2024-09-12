@@ -1,0 +1,146 @@
+---
+title: "TATA _ opensource data analysis" 
+author: "KRM" 
+date: "`r Sys.Date()`" 
+output: word_document
+---
+
+EXPLAROTARY ANALYSIS (EDA)
+
+# Load packages
+
+# Load the data
+
+```{r}
+library("tidyverse")
+library("readxl")
+library("dplyr")
+
+```
+
+```{r}
+retail_data<-read_excel("H:/R programming/TATA/Online Retail.xlsx")
+retail_data
+```
+
+# Number of rows of the data
+
+```{r}
+nrow(retail_data)
+```
+
+# Number of Variables or columns of the data
+
+```{r}
+ncol(retail_data)
+```
+
+# Variables or column names of the data
+
+```{r}
+colnames(retail_data)
+```
+
+# Variables or column names of the data
+
+```{r}
+head(retail_data)
+```
+
+# View the sample data
+
+```{r}
+
+View(retail_data)
+
+```
+
+# Structure of the data
+
+```{r}
+str(retail_data)
+
+```
+
+# summary of the data statistics
+
+```{r}
+
+summary(retail_data)
+
+```
+
+```{r}
+variable.names(retail_data)
+```
+
+find UNIQE value of Variable country
+
+```{r}
+unique(retail_data$Country)
+```
+
+```{r}
+
+# number of rows annd columns/ variables of the data 
+dim(retail_data)
+
+```
+
+```{r}
+
+       max(retail_data$InvoiceDate)
+      max(retail_data$Country)
+
+
+```
+
+```{r}
+
+summary(retail_data)
+
+```
+
+**Data cleaning - creating subset, revmoving quantity zero and unit price less than 1**
+
+```{r}
+df <- filter(retail_data, Quantity>=0 & UnitPrice >=1)
+df
+```
+
+**Adding Revenue column to data by mutate function, calculation done.**
+
+```{r}
+revenue_data<-mutate(df,revenue = (df$Quantity * df$Quantity))
+revenue_data
+
+
+
+
+```
+
+**TASK 1 Questions from CEO**
+
+TQ **1. 1 Which region generates the highest revenue and which region generates the lowest ?**
+
+```{r}
+country_profit<- max(revenue_data$Country)
+country_profit
+max(revenue_data$revenue)
+
+min(revenue_data$revenue)
+min(revenue_data$Country)
+
+
+```
+
+**TQ \*\*1. 2 Did customers based have significant impact on revenue ?**
+
+```{r}
+aggregate(revenue~Country+,revenue_data,sum)
+```
+
+```{r}
+aggregate(revenue~Country+CustomerID,revenue_data,sum)
+
+```
