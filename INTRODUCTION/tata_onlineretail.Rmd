@@ -119,7 +119,6 @@ revenue_data
 
 ```
 
-**TASK 1 Questions from CEO**
 
 TQ **1. 1 Which region generates the highest revenue and which region generates the lowest ?**
 
