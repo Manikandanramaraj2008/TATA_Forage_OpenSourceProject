@@ -1,7 +1,16 @@
-This is a virtual internship Programme case study with the company TATA.
-This program is hosted through the site called “Forage”.
-This internship helps to learn data basics such as data cleaning, modelling, visualization and storytelling.
-dashboard of analysis added
+ 
+Project Title: Data Visualisation: Empowering Business with Effective Insights Job Simulation
+
+Project Scope:This is a virtual internship Programme case study with the company TATA.
+  This program is hosted through the site called “Forage”. This internship helps to learn 
+  data basics such as data cleaning, modelling, visualization and storytelling.
+  dashboard creation of analysis and visualization.
+  
+Tools used : R,Ms Excel,Tableau,Power BI, SQL
+
+Softskills applied: data Visualization, data Exploration, data gathering, data cleaning, data Manipulation
+  Reporting and presentation, graph and charts. dashboard creation, data driven decision making, data storytelling
+
 ![image](https://github.com/user-attachments/assets/8f6264ad-869b-4794-a9c7-645d255ac31b)
 ![intern tatat-1](https://github.com/user-attachments/assets/24c906b6-904e-4b09-8af0-6e47993ec04d)
 ![Slide1](https://github.com/user-attachments/assets/7937c26e-b39d-44e1-bf76-3d5b6a639336)
